@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870708949581",
+    "project_id": "andiamo-2269f",
+    "storage_bucket": "andiamo-2269f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870708949581:android:7f839a3af1b7da1b28e204",
+        "android_client_info": {
+          "package_name": "com.example.andiamo_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLLmBkTaenwqoGj6HxpB75nBSToyl-AK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
