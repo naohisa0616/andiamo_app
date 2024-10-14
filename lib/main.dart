@@ -1,7 +1,16 @@
+import 'package:andiamo_app/View/BottomNavigation/screen.dart';
+import 'package:andiamo_app/firebase_options.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'Login/View/login_page.dart';
+import 'View/Login/login_page.dart';
+import 'View/RecruitmentTimeline/recruitment_time_line_page.dart';
+import 'View/matching/matching_detail_page.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
