@@ -187,26 +187,6 @@ class _RecruitmentTimelinePageState extends State<RecruitmentTimelinePage> {
         },
         child: Icon(Icons.chat_bubble_outline),
       ),
-        // body: display[selectedIndex],
-        // bottomNavigationBar: BottomNavigationBar(
-        //   items: [
-        //     BottomNavigationBarItem(icon: Icon(Icons.home), label: 'ホーム'),
-        //     BottomNavigationBarItem(
-        //         icon: Icon(Icons.notifications_none), label: 'お知らせ'),
-        //     BottomNavigationBarItem(icon: Icon(Icons.people), label: 'マイページ'),
-        //   ],
-        //   // 現在選択されているフッターメニューのインデックス
-        //   currentIndex: selectedIndex,
-        //   // フッター領域の影
-        //   elevation: 0,
-        //   // フッターメニュータップ時の処理
-        //   onTap: (int index) {
-        //     selectedIndex = index;
-        //     setState(() {});
-        //   },
-        //   // 選択中フッターメニューの色
-        //   fixedColor: Colors.red,
-        // ));
     );
   }
 }
